@@ -112,7 +112,7 @@ canvas {
 .swiper-box {
   width: 414px;
   height: 1206px;
-  background: url(../images/swiperBg.jpg) no-repeat center center / contain;
+  background: url(/external/sim-20180217/view/templates/images/swiperBg.jpg) no-repeat center center / contain;
   margin: 0 auto;
   position: absolute;
   bottom: 0;
