@@ -12,7 +12,7 @@
 	$config->htmlDir = $config->viewDir.'html'.DIRECTORY_SEPARATOR;
 	$config->uploadDir = ROOTDIR.'attachment'.DIRECTORY_SEPARATOR.'upload'.DIRECTORY_SEPARATOR;
 	$config->libDir = ROOTDIR.'lib'.DIRECTORY_SEPARATOR;
-	$config->webSite = 'http://'.$_SERVER['HTTP_HOST']."/external/sim_katong";
+	$config->webSite = 'http://'.$_SERVER['HTTP_HOST']."/external/sim-20180217";
 	$config->domain = '';
 	$config->cookieTime = 0;
 	$config->cookieExpireTime = 0;
