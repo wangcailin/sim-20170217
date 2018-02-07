@@ -44,7 +44,7 @@
 				die();
 			}
 			$this->sourceOpenid=$_COOKIE['sourceOpenid'];
-			
+			var_dump($this->openid);die;
 			if(!$this->openid){
 				setcookie('state',$this->curPageURL(),$this->config->time+86400*30,$this->config->cookiePath,$this->config->domain,$this->config->cookieSecure);
 				header("Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6df60d01cc2e0ab3&redirect_uri=".urlencode("http://www.wechat.siemens.com.cn/external/getOpenid4.php")."&response_type=code&scope=snsapi_base&state=".urlencode($this->curPageURL())."#wechat_redirect");
@@ -55,7 +55,6 @@
 				$this->sourceOpenid = $this->openid;
 			}
 			$signPackage = $this->jssdk->getSignPackage($_GET["requrl"]);
-			//var_dump($token);
 			$this->template->assign('signPackage',$signPackage);
 			$this->template->assign('blueopenid',$this->openid);
 
