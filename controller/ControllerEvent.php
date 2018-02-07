@@ -77,7 +77,9 @@
 		public function getuserinfo(){
 			
 			$token=$this->getAccessToken();
-			ob_start();
+            var_dump($token);die;
+
+            ob_start();
 			$url="https://api.weixin.qq.com/cgi-bin/user/info?access_token={$token}&openid=".$this->openid;
 			$ch = curl_init();
 			curl_setopt($ch, CURLOPT_URL,$url);
@@ -92,22 +94,7 @@
 
 		public function index()
 		{
-		    var_dump($token);die;
 			$this->template->display('index.html');
-		}
-
-		public function winover()
-		{
-			$sql="select count(*) nub,type from sim_katongwin where  openid='".$this->openid."' group by type ";
-			$mytypecount=$this->db->loadToArray($sql);
-			if($mytypecount){
-				foreach($mytypecount as $key=>$value){
-					if($value['nub']>=1){
-						$this->template->assign('type'.$value['type'],1);
-					}
-				}
-			}
-			$this->template->display('select.html');
 		}
 
 		public function getAccessToken() {
