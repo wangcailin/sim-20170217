@@ -18,7 +18,7 @@ body {
   font-weight: normal;
   position: relative;
   margin: 0 auto;
-  background: url(../images/SIEMENSbg.jpg) top center / 750px auto;
+  background: url(/external/sim-20180217/view/templates/images/SIEMENSbg.jpg) top center / 750px auto;
 }
 a {
   display: block;
@@ -142,7 +142,7 @@ canvas {
 .pictureCont {
   width: 414px;
   height: 1206px;
-  background: url(../images/swiperBgT.jpg) no-repeat center center / contain;
+  background: url(/external/sim-20180217/view/templates/images/swiperBgT.jpg) no-repeat center center / contain;
   margin: 0 auto;
   position: absolute;
   bottom: 0;
@@ -179,7 +179,7 @@ canvas {
   width: 190px;
   height: 130px;
   position: relative;
-  background: url(../images/peopleBg.png) no-repeat center center / contain;
+  background: url(/external/sim-20180217/view/templates/images/peopleBg.png) no-repeat center center / contain;
 }
 .portrait .thisImg {
   width: 80px;
