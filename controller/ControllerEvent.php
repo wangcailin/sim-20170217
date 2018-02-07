@@ -92,7 +92,7 @@
 
 		public function index()
 		{
-		    var_dump($this->getuserinfo);die;
+		    var_dump($token);die;
 			$this->template->display('index.html');
 		}
 
