@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta id="viewport" name="viewport" content="width=640,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="MobileOptimized" content="800">
+<title>西门子CRS</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/viewport.js"></script>
+<script src="js/jQuery1.11.3.js"></script>
+<script src="js/iscroll4.js"></script>
+</head>
+<body>
+<div class="wrap1"  style="display:-none;" >
+    <div class="logo"><img src="images/logo_1.jpg" /></div>	
+	<div class="top1"></div>
+    <div class="iconlist">
+    	<div class="icon1"><img src="images/liang_1.png" class="liang" /><img src="images/hui_1.png" class="an" /><img src="images/guang.png" class="guang" /></div>
+        <div class="icon2"><img src="images/liang_2.png" class="liang" /><img src="images/hui_2.png" class="an" /><img src="images/guang.png" class="guang" /></div>
+        <div class="icon3"><img src="images/liang_3.png"  class="liang" /><img src="images/hui_3.png" class="an" /><img src="images/guang.png" class="guang" /></div>
+        <div class="icon4"><img src="images/liang_4.png" class="liang" /><img src="images/hui_4.png" class="an" /><img src="images/guang.png" class="guang" /></div>
+    </div>
+    <div class="year200"><img src="images/suo.png" class="suo" /></div>
+    <div class="btn">
+    	<div class="shen"><img src="images/wrap_1_line.png"</div>
+        <div class="btnlist">
+        	<img src="images/guize_1.png" class="guize" />
+            <img src="images/start_1.png" class="start" />
+        </div>
+    </div>
+</div>
+<div class="tanc" style="display:none;">
+	<div class="top1"></div>
+    <div class="guizebg">
+    	<div class="title">在西门子创始人维尔纳•冯•西门子200周年诞辰之际，我们向所有<br>西家人发起一个任务：<br>
+带老爷爷玩偶去看看他当年一手创建的企业如今是如何为人们创造更美好生活的。<br>
+完成任务，你只需：</div>
+		<div class="guizelist" id="yc1">
+			<ul>
+            	<li><div class="nub">1</div>点击心仪的玩偶开始答题闯关游戏。每款玩偶每人有三次挑战机会，闯关成功后即有机会赢得玩偶。数量有限，先到先得！</li>
+                <li><div class="nub">2</div>带着老爷爷玩偶在客户现场、采用西门子技术的地标和景点，或留有西门子身影之处拍照。<p><img src="images/shili_1.png" /></p></li>
+                <li>
+                	<div class="nub">3</div>请将在此拍照的缘由， 你的感受or你和这里的故事分享至朋友圈。<p><img src="images/shili_2.png" /></p>
+                	<div class="geshi"><span>要求：</span>文字前请先加上活动标签#Hello,Siemens<img src="images/xiao.png" /><br>并喊出我们的口号：西门子，一直牛下去。</div>
+                	<div class="geshi"><span>格式：</span>#Hello,Siemens<img src="images/xiao.png" /><br> 西门子，一直牛下去！XXXXXXXX</div>
+                </li>
+                <li><div class="nub">4</div>将拍摄照片原图和朋友圈截图通过“西家”微信对话框发送给小编，或者发送至活动邮箱：myvoice.slc@siemens.com </li>
+                <li>完成以上全部任务者将有机会赢得200周年纪念版老爷爷玩偶，这可是限量版中的限量版哟！<span style="font-weight:bold;">我们还将从大家提交的作品里选出20个最佳作品赠送全套老爷爷玩偶！</span></li>
+                <li>*活动最终解释权归西门子传播部所有</li>
+                <li class="kailai"><img src="images/kailai.png" /></li>
+            </ul>
+        </div>
+        <div class="guizedown"><img src="images/xiazhe.png" /></div>
+        <div class="close"><img src="images/close_btn.png" class="guanbi" /></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+		window.onload=function(){
+			var	 myScroll = new iScroll('yc1');
+			setTimeout(function () {
+	       	 myScroll.refresh();
+	   		}, 100);
+		};
+		$('.suo').click(function(){
+			$('.iconlist div').addClass('nohover');
+			$('.year200').addClass('hover');	
+		})
+		$('.iconlist div').click(function(){
+			$('.iconlist div').addClass('nohover');
+			$('.iconlist div').find('.guang').hide();
+			$('.year200').removeClass('hover');
+			$('.iconlist div').removeClass('hover')
+			$(this).removeClass('nohover').addClass('hover');
+			$(this).find('.guang').show();
+		})
+		$('.guize').click(function(){
+			$('.tanc').show();
+			var	 myScroll = new iScroll('yc1');
+			setTimeout(function () {
+	       	 myScroll.refresh();
+	   		}, 100);	
+		})
+		$('.guanbi').click(function(){
+			$('.tanc').hide();	
+		})
+		$('.start').click(function(){
+			if($('.iconlist div').hasClass('hover')){
+				window.location='win.html';
+			}else{
+				alert('请选择');	
+			}	
+		})
+</script>
+
+</body>
+</html>

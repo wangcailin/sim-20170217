@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>旺年小目标</title>
+	<script src="{{$jsSite}}viewportWidth.js"></script>
+	<link rel="stylesheet" href="{{$cssSite}}index.css?v=1.0">
+</head>
+<body>
+	<!-- loading部分 -->
+	<div class="loading">
+		<div class="loadingBox">
+			<div class="dog">
+				<img src="{{$imageSite}}loadingleft.png" class="loadingleft" alt="">
+				<img src="{{$imageSite}}loadingright.png" class="loadingright" alt="">
+			</div>
+			<div class="dogbot">
+				<img src="{{$imageSite}}dogbottom.png" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 生成图片容器 -->
+	<canvas width="750" height="1334"></canvas>
+	<div class="content canvasBox" data-url="picture">
+		<!-- logo -->
+		<div class="logoIcon">
+			<img src="{{$imageSite}}sienmensLogo.jpg" alt="">
+		</div>
+		<div class="canvasBoxbg">
+			<img src="{{$imageSite}}SIEMENSbg.jpg" />
+			<img src="{{$imageSite}}SIEMENSbg.jpg" />
+		</div>
+		<!-- 中心部分 -->
+		<div class="pictureCont">
+			<!-- 头像部分 -->
+			<div class="peoplePict">
+				<div class="portrait">
+					<img class="thisImg" src="" alt="">
+					<p class="thisName">丫头</p>
+				</div>
+				<!-- 旺 -->
+				<div class="wang">
+					事业旺
+				</div>
+			</div>
+			<!-- 文字部分 -->
+			<div class="pictureTxt">
+				<img class="pictureImg" src="{{$imageSite}}flower_02.png" />
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="index-footer">
+			<img class="footerBack" src="{{$imageSite}}indexFooter.png" alt="">
+			<!-- 点击部分 -->
+			<span class="footer-click">
+				<img class="floorImg" src="{{$imageSite}}shengclong.png" alt="">
+			</span>
+			<!-- 生成我的海报部分 -->
+			<div class="mypicture">
+				<!-- 文字  -->
+				<img src="{{$imageSite}}mypicture.png" class="mypicImg" alt="">
+				<!-- 二维码 -->
+				<img src="{{$imageSite}}urlCode.png" class="mycode" alt="">
+			</div>
+		</div>
+	</div>
+	
+	<!-- 首页 -->
+	<div class="content">
+		<!-- logo -->
+		<div class="logoIcon">
+			<img src="{{$imageSite}}sienmensLogo.jpg" alt="">
+		</div>
+		<!-- 中心部分 -->
+		<div class="pictureCont">
+			<!-- 头像部分 -->
+			<div class="peoplePict">
+				<div class="portrait">
+					<img class="thisImg" src="" alt="">
+					<p class="thisName">丫头</p>
+				</div>
+				<!-- 旺 -->
+				<div class="wang">
+					事业旺
+				</div>
+			</div>
+			<!-- 文字部分 -->
+			<div class="pictureTxt">
+				<img class="pictureImg" src="{{$imageSite}}flower_02.png" />
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="index-footer">
+			<!-- 点击部分 -->
+			<span class="footer-click">
+				<img class="floorImg" src="{{$imageSite}}longtouch.png" alt="">
+			</span>
+			<img class="footerBack" src="{{$imageSite}}indexFooter.png" alt="">
+		</div>
+	</div>
+	<!-- 保存图片 -->
+	<div class="mypictureImg">
+		<img id="generate" src="" alt="">
+	</div>
+	<script src="{{$jsSite}}jquery.1.11.3.js"></script>
+	<script src="{{$jsSite}}html2canvas.js"></script>
+	<script src="{{$jsSite}}index.js"></script>
+</body>
+</html>
