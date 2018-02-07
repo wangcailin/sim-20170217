@@ -1,0 +1,159 @@
+/* CSS Document */
+@font-face {
+	font-family: 'Conv_Siemens Sans Roman';
+	src: url('fonts/Siemens Sans Roman.eot');
+	src: local('☺'), url('fonts/Siemens Sans Roman.woff') format('woff'), url('fonts/Siemens Sans Roman.ttf') format('truetype'), url('fonts/Siemens Sans Roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html,body{min-height:100%;}
+body{text-align:center;font:32px "微软雅黑";color:#353535;background:#FFF;}
+body,div,dl,dt,dd,ul,li,p,form,span,em,abbr,input,textarea,table,button,h1,h2,h3{margin:0; padding:0; border:0; font-family:"微软雅黑";}
+
+input,textarea{font-size:26px; font-family:"微软雅黑";outline:none;}
+textarea{color:#333; resize:none;}
+img{border:0; vertical-align:top;}
+li{list-style:none;}
+em{font-style:normal;}
+a{color:#FFF; text-decoration:none; outline:none;}
+a:hover{color:#FFF; text-decoration:none;}
+*{-webkit-touch-callout:none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+::-webkit-input-placeholder{color:#464748;}
+:-moz-placeholder{color:#464748;}
+::-moz-placeholder{color:#464748;}
+:-ms-input-placeholder{color:#464748;}
+
+/* 自定义样式 */
+.dis-i-b{display:inline-block;}
+.mt17{margin-top:17px;}
+.fw{font-weight:normal;}
+.tl{text-align:left;}
+.fl{float:left;}
+.fr{float:right;}
+.tc{text-align:center;}
+.tl{text-align:left;}
+.tr{text-align:right;}
+
+
+/* position:absolute; */
+.a{position: relative;}
+
+/* wrap-1 */
+.top_log{ position:absolute; top:29px; right:0;}
+
+.logo{ position:absolute; top:40px; left:38px;}
+.wrap1{width:828px; position: absolute; top:0; left:0; margin:0 auto; height:1344px; background:url(../images/wrap1_bg.jpg) #ebebe4 no-repeat; overflow:hidden; font-family:"微软雅黑"; }
+.wrap1 .top1{ width:770px; height:315px; background:url(../images/wrap_1_title.png) no-repeat;    margin-left:48px;; position:relative; z-index:2;}
+.wrap1 .logo{ position:absolute; z-index:3; top:40px; left:40px; }
+.wrap1 .iconlist{ width:743px; height:889px;background:url(../images/suo_1.png) no-repeat; position:absolute; top:282px; left:50px;  }
+.wrap1 .iconlist .icon1{ position:absolute; top:38px; left:63px; z-index:3}
+.wrap1 .iconlist .icon2{ position:absolute; top:38px; right:60px; z-index:3}
+.wrap1 .iconlist .icon3{ position:absolute; top:445px; left:63px ;z-index:3;}
+.wrap1 .iconlist .icon4{ position:absolute; top:445px; right:38px; z-index:3}
+.wrap1 .iconlist img{ position:relative; z-index:2;}
+.wrap1 .iconlist .guang{ position:absolute; top:0; left:0; z-index:1;top: -150px;left: -103px; display:none;}
+.wrap1 .iconlist .an{ display:none;}
+.wrap1 .iconlist .hover{ z-index:2;}
+.wrap1 .iconlist .hover .guang{ display:block; }
+.wrap1 .iconlist .hover .liang{ display: block;}
+.wrap1 .iconlist .hover .an{ display: none;}
+.wrap1 .iconlist .nohover .liang{ display: none;}
+.wrap1 .iconlist .nohover .an{ display:block;}
+.wrap1 .btn{ position:absolute; bottom:0; width:828px; height:120px; z-index:2}
+.wrap1 .btn .shen{ position:absolute; top:0; z-index:1;}
+.wrap1 .btn .btnlist{ position:absolute; z-index:2; top:-30px; width:828px; text-align:center;}
+.wrap1 .btn .btnlist .guize{ position:absolute; left:109px; z-index:2}
+.wrap1 .btn .btnlist .start{ position:absolute; right:109px; z-index:2}
+.wrap1 .year200{ width:284px; height:404px; background:none; position:absolute; top:521px; left:280px;}
+.wrap1 .year200 img{ position:absolute; z-index:4; top:102px; left:71px; padding:20px; }
+.wrap1 .year200.hover{ background:url(../images/200year.png) no-repeat; z-index:4;}
+.wrap1 .year200.hover img{ opacity:0.4;}
+
+.tanc{ position:absolute; top:0; background:rgba(29,15,8,0.82) no-repeat; width:828px; height:1344px; z-index:5;font-family:"微软雅黑";}
+.tanc .top1{ width:770px; height:315px; background:url(../images/wrap_3_title.png) no-repeat;    margin-left:38px;; position:relative; z-index:2;}
+.tanc .guizebg{ width:724px; height:971px; background:url(../images/guize_bg.jpg) no-repeat; position:absolute;top:255px; left:48px; border:5px solid #39180f; border-radius:10px; }
+.tanc .guizebg .title{ font-size:28px; color:#592513; line-height:48px;font-family:"微软雅黑"; width:455px; text-align:left; padding:55px 48px;}
+.tanc .guizebg .guizelist{ width: 540px; padding:0 60px 0 113px; height:485px; overflow:hidden; text-align:left;position: relative;}
+.tanc .guizebg .guizelist li{ position: relative; color:#98654a; font-size:28px; line-height:42px; font-family:"微软雅黑"; padding-bottom:20px; }
+.tanc .guizebg .guizelist li .nub{ position:absolute; left:-50px; background:url(../images/nub_bg.png) no-repeat; width:37px; height:47px; color:#ffefd0; font-weight:bold; font-size:30px; line-height:46px; text-align:center;}
+.tanc .guizebg .guizedown{ position:absolute; bottom:40px; left:16px; }
+.tanc .guizebg .guizelist li p{ text-align:center;}
+.tanc .guizebg .guizelist li .geshi{ padding-left:113px; position:relative;font-family:"微软雅黑"; padding-top:20px;}
+.tanc .guizebg .guizelist li .geshi span{ position:absolute; left:0; font-weight:bold; font-family:"微软雅黑";}
+.tanc .guizebg .guizelist li.kailai{margin-left: -63px; padding:20px 0 50px 0;}
+
+.win{width:828px; position: absolute; top:0; left:0; margin:0 auto; height:auto; min-height:1344px; background:#ebf0f5; overflow:hidden; font-family:"微软雅黑"; }
+.win .dati{ position:absolute; top:70px; left:338px;}
+.win .ren{ position:absolute; top:10px; right:94px; z-index:2;}
+.win .question{ width:784px; height:100%; position:relative; z-index:1; border:6px solid #44bad2;box-shadow:rgba(12,3,6,0.21) 5px 5px 10px,inset 5px 5px 10px rgba(12,3,6,0.21); margin-top:230px; margin-left:12px; margin-bottom:120px; background:#ffffff;}
+.win .question .list .qa{ text-align:left; padding-left:44px; padding-top:66px; color:#421b06; font-size:32px; font-weight:bold; line-height:48px;font-family:"微软雅黑";}
+.win .question .list .answer{padding:47px 0 62px 53px;}
+.win .question .list .answer li{ width:638px; height:121px; background:#d5ecf3; margin-bottom:26px; text-align:left; padding-left:70px; line-height:120px; border-radius:150px; color:#421b06; font-size:32px; position:relative;}
+
+.win .question .list .answer li .shuhao{ position:absolute; left:-26px; top:26px; width:73px; height:73px; background:#44bad2; line-height:73px; text-align:center; border-radius:100px;}
+.win .question .list .line{ border-bottom:1px #44bad2 dotted; margin:0 65px;}
+.win .question .btn{ position:absolute; bottom:-70px;text-align: center;width: 790px;}
+ 
+.win .question .list:nth-last-child(1) .line{ display:none;}
+.win .question .list .answer li.hover{ background:#f4eee3;}
+.win .question .list .answer li.hover .shuhao{ background:#98654a}
+
+
+
+.wrap_select{width:828px; position: absolute; top:0; left:0; margin:0 auto; height:1344px; background:url(../images/wrap_select.jpg) #ebebe4 no-repeat; overflow:hidden; font-family:"微软雅黑"; }
+.wrap_select .jieshao{  position:absolute; top:172px; left:28px;}
+.wrap_select .iconlist{ position: relative; top:290px; left:60px;}
+.wrap_select .iconlist li{ width:355px; height:430px;  float:left; position:relative;}
+.wrap_select .iconlist li .quan{ position:absolute; top:45px; left:22px;}
+.wrap_select .iconlist li .ren{ position:absolute; top:55px; left:80px;}
+.wrap_select .btn{ position:absolute; bottom:0; width:828px; height:120px;}
+.wrap_select .btn .shen{ position:absolute; top:0; z-index:1;}
+.wrap_select .btn .btnlist{ position:absolute; z-index:2; top:-30px; width:828px; text-align:center;}
+.wrap_select .btn .btnlist .lingqu{ position:absolute; left: 288px;}
+
+.wrap_input{width:828px; position: absolute; top:0; left:0; margin:0 auto; height:1344px; background:url(../images/wrap5_bg.jpg) #ebebe4 no-repeat; overflow:hidden; font-family:"微软雅黑"; }
+.wrap_input .jieshao{  position:absolute; top:172px; left:28px;}
+.wrap_input .btn{ position:absolute; bottom:0; width:828px; height:120px;}
+.wrap_input .btn .shen{ position:absolute; top:0; z-index:1;}
+.wrap_input .btn .btnlist{ position:absolute; z-index:2; top:-30px; width:828px; text-align:center;}
+.wrap_input .btn .btnlist .lingqu{ position:absolute; left: 288px;}
+.wrap_input .inputlist{ position:absolute; top:400px; padding-left:240px;}
+.wrap_input .inputlist li{ width:510px; height:auto; min-height:80px; text-align:left; margin-bottom:50px; color:#421b06; font-size:32px; line-height:42px;}
+.wrap_input .inputlist li input{ height:80px; width:460px; background: none;color:#421b06; font-size:32px; line-height:80px;font-family:"微软雅黑";}
+.wrap_input .inputlist li textarea{ width:460px; height:150px;background: none;color:#421b06; font-size:32px; line-height:40px;font-family:"微软雅黑";}
+
+.wintanc{ width:828px; min-height:1344px; height:auto; position:absolute; top:0; background:#ebf0f5; z-index:11;}
+.wintanc .bg_1{ background:rgba(29,15,8,0.82) no-repeat; width:828px; height:auto; min-height:1344px;}
+.wintanc .top1{ width:770px; height:315px; background:url(../images/wrap_3_title.png) no-repeat;    margin-left:38px;; position:relative; z-index:2;}
+.wintanc .guizebg{ width:725px; height:auto; min-height:1144px; position: relative;top:-65px; left:48px; border:5px solid #39180f; border-radius:10px; background:url(../images/changbg.jpg) no-repeat; padding-top:328px; padding-bottom:233px;  }
+.wintanc .guizebg .qidai{ position:absolute; bottom:0; left:0;}
+.wintanc .guizebg .gongxi{ position:absolute; top:80px; left:148px;}
+
+.wintanc .guizebg .guizelist{ width: 540px; padding:0 60px 0 113px; height: auto; text-align:left;position: relative;}
+.wintanc .guizebg .guizelist li{ position: relative; color:#98654a; font-size:28px; line-height:42px; font-family:"微软雅黑"; padding-bottom:20px; }
+.wintanc .guizebg .guizelist li .nub{ position:absolute; left:-50px; background:url(../images/nub_bg.png) no-repeat; width:37px; height:47px; color:#ffefd0; font-weight:bold; font-size:30px; line-height:46px; text-align:center;}
+.wintanc .guizebg .guizedown{ position:absolute; bottom:40px; left:16px; }
+.wintanc .guizebg .guizelist li p{ text-align:center;}
+.wintanc .guizebg .guizelist li .geshi{ padding-left:113px; position:relative;font-family:"微软雅黑"; padding-top:20px;}
+.wintanc .guizebg .guizelist li .geshi span{ position:absolute; left:0; font-weight:bold; font-family:"微软雅黑";}
+.wintanc .guizebg .guizelist li.kailai{margin-left: -63px; padding:20px 0 50px 0;}
+.wintanc .guizebg .close{ position:absolute; bottom:-50px; z-index:2; width:100%; text-align:center;}
+.wintanc .renou{ position: absolute; right:0; top:120px; z-index:11;}
+
+
+
+.win_tanc{ position: absolute; top:0; left:0; background:rgba(29,15,8,0.82) no-repeat; width:828px; height:100%; z-index:21;}
+.win_tanc .tanbg{ width:796px; height:626px; background:url(../images/tancbg.png) no-repeat;  margin-top:280px;    position: fixed;    left: 16px;}
+.win_tanc .tanbg .state_win{ padding-top:240px;}
+.win_tanc .tanbg .state_over{ padding-top:240px; display:none;}
+.win_tanc .btnlist{ position:absolute; z-index:2;bottom: 110px; width:828px; text-align:center;}
+.win_tanc .btnlist .guize{ position:absolute; left:100px;}
+.win_tanc .btnlist .start{ position:absolute; right:120px;}
+
+
+
+
+
+
+

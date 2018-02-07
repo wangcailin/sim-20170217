@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta id="viewport" name="viewport" content="width=640,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="MobileOptimized" content="800">
+<title>西门子CRS</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/viewport.js"></script>
+<script src="js/jQuery1.11.3.js"></script>
+<script src="js/iscroll4.js"></script>
+</head>
+<body>
+<div class="win"  style="display:-none;" >
+    <div class="logo"><img src="images/logo_1.jpg" /></div>
+    <div class="dati"><img src="images/dati.png" /></div>
+    <div class="ren"><img src="images/wenti2.png" /></div>
+    <div class="question">
+    	<div class="list">
+        	<p class="qa">Q1. 西门子企业品牌宣言是什么？</p>
+            <ul class="answer">
+            	<li><div class="shuhao"><img src="images/a.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/b.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/c.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/d.png" /></div>alkdsflkasdf</li>
+            </ul>
+            <div class="line"></div>
+        </div>
+       <div class="list">
+        	<p class="qa">Q1. 西门子企业品牌宣言是什么？</p>
+            <ul class="answer">
+            	<li><div class="shuhao"><img src="images/a.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/b.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/c.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/d.png" /></div>alkdsflkasdf</li>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <div class="list">
+        	<p class="qa">Q1. 西门子企业品牌宣言是什么？</p>
+            <ul class="answer">
+            	<li><div class="shuhao"><img src="images/a.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/b.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/c.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/d.png" /></div>alkdsflkasdf</li>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <div class="list">
+        	<p class="qa">Q1. 西门子企业品牌宣言是什么？</p>
+            <ul class="answer">
+            	<li><div class="shuhao"><img src="images/a.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/b.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/c.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/d.png" /></div>alkdsflkasdf</li>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <div class="list">
+        	<p class="qa">Q1. 西门子企业品牌宣言是什么？</p>
+            <ul class="answer">
+            	<li><div class="shuhao"><img src="images/a.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/b.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/c.png" /></div>alkdsflkasdf</li>
+                <li><div class="shuhao"><img src="images/d.png" /></div>alkdsflkasdf</li>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <div class="btn"><img src="images/tijiao.png" class="tijiao" /></div>
+    </div>
+    
+    <div class="win_tanc" style="display:none;">
+    	<div class="tanbg">
+        	<div class="state_win" style=" display:none;"><img src="images/chengong.png" /></div>
+            <div class="state_over" style=" display: block;"><img src="images/3ci.png" /></div>
+            <div class="state_over"><img src="images/2ci.png" /></div>
+            <div class="state_over"><img src="images/1ci.png" /></div>
+            <div class="btnlist">
+                <img src="images/lingjiang.png" class="guize" />
+                <img src="images/chuangguan.png" class="start" />
+        </div>
+        </div>
+    
+    </div>
+</div>
+
+<script>
+	$('.answer li').click(function(){
+		$(this).parent().find('.hover').removeClass('hover');
+		$(this).addClass('hover');	
+	})
+	$('.tijiao').click(function(){
+		$('.win_tanc').show();	
+	})
+	$('.guize').click(function(){
+		window.location='select.html';	
+	})
+</script>
+</body>
+</html>

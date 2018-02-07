@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta id="viewport" name="viewport" content="width=640,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="MobileOptimized" content="800">
+<title>西门子CRS</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/viewport.js"></script>
+<script src="js/jQuery1.11.3.js"></script>
+<script src="js/iscroll4.js"></script>
+</head>
+<body>
+<div class="wrap_select"  style="display:-none;" >
+    <div class="logo"><img src="images/logo_1.jpg" /></div>
+    <div class="jieshao"><img src="images/wrap3_text.png" /></div>
+    <div class="iconlist">
+    	<ul>
+    		<li>
+            	<div class="quan"><img src="images/quan.png" /></div>
+                <div class="ren"><img src="images/select_1.png" /></div>
+            </li>
+            <li>
+            	<div class="quan"><img src="images/quan.png" /></div>
+                <div class="ren"><img src="images/select_2.png" /></div>
+            </li>
+            <li>
+            	<div class="quan"><img src="images/quan.png" /></div>
+                <div class="ren"><img src="images/select_3.png" /></div>
+            </li>
+            <li>
+            	<div class="quan"><img src="images/quan.png" /></div>
+                <div class="ren"><img src="images/select_4.png" /></div>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="btn">
+    	<div class="shen"><img src="images/wrap_1_line.png" /></div>
+        <div class="btnlist">
+        	<img src="images/tijiao_1.png" class="lingqu" />
+        </div>
+    </div>
+</div>
+
+<div class="wrap_input" style="display:none;">
+	<div class="logo"><img src="images/logo_1.jpg" /></div>
+    <div class="jieshao"><img src="images/inputyouname.png" /></div>
+    <div class="inputlist">
+    	<ul>
+        	<li><input type="text" placeholder="aaaa" /></li>
+            <li style="margin-bottom:60px"><input type="text" placeholder="aaaa" /></li>
+            <li style="margin-bottom:80px"><input type="text" placeholder="aaaa" /></li>
+            <li><textarea></textarea></li>
+        </ul>
+    </div>
+    <div class="btn">
+    	<div class="shen"><img src="images/wrap_1_line.png" /></div>
+        <div class="btnlist">
+        	<img src="images/tijiao_1.png" class="tijiao" />
+        </div>
+    </div>
+</div>
+
+
+
+<div class="wintanc" style="display:none">
+	<div class="bg_1">
+    	<div class="top1"></div>
+        <div class="renou"><img src="images/renlogo.png" /></div>
+        <div class="guizebg">
+        	<div class="gongxi"><img src="images/gongxi.png" /></div>
+            
+            <div class="guizelist" id="yc1">
+                <ul>
+                    <li><div class="nub">1</div>点击心仪的玩偶开始答题闯关游戏。每款玩偶每人有三次挑战机会，闯关成功后即有机会赢得玩偶。</li>
+                    <li><div class="nub">2</div>带着老爷爷玩偶在客户现场、采用西门子技术的地标和景点，或留有西门子身影之处拍照。<p><img src="images/shili_1.png" /></p></li>
+                    <li><div class="nub">3</div>将在此拍照的缘由以及你的感受分享至朋友圈<p><img src="images/shili_2.png" /></p><div class="geshi"><span>格式：</span>#Hello,Siemens<img src="images/xiao.png" /> <br> 西门子，一直牛下去！ <br>（+ 拍照缘由以及你的感受）</div></li>
+                    <li><div class="nub">4</div>将拍摄照片和朋友圈截图发送至西家或活动邮箱：myvoice.slc@siemens.com</li>
+                    <li>完成以上全部任务者将有机会赢得200周年纪念版老爷爷玩偶，这可是限量版中的限量版哟！我们还将从中选出20个最受欢迎的作品赠送全套老爷爷玩偶。</li>
+                    
+                </ul>
+            </div>
+        	<div class="qidai"><img src="images/qidaibtn.jpg" /></div>
+            <div class="close"><img src="images/close_btn.png" class="guanbi" /></div>
+        </div>
+    </div>	
+</div>
+
+<script>
+	$('.iconlist li').click(function(){
+		$('.iconlist li').find('.quan').find('img').attr('src','images/quan.png');
+		$(this).find('.quan').find('img').attr('src','images/xuanzhong.png');
+		$(this).addClass('hover');
+	})
+	$('.lingqu').click(function(){
+		$('.wrap_input').show();	
+	})
+	$('.tijiao').click(function(){
+		$('.wintanc').show();	
+	})
+</script>
+</body>
+</html>
