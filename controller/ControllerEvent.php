@@ -86,7 +86,6 @@
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 			$result = curl_exec($ch);
 			$out1 = ob_get_contents();
-			var_dump($out1);die;
 			ob_end_clean();
 			$getarr=json_decode($out1,true);
 			return $getarr;
@@ -94,7 +93,7 @@
 
 		public function index()
 		{
-		    $this->getuserinfo();
+		    var_dump($this->getuserinfo());die;
 			$this->template->display('index.html');
 		}
 
