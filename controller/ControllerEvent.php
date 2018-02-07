@@ -25,7 +25,7 @@
 			self::initConfig();
 			if(!isset($_SESSION)){ //判断session是否开启
 				session_start(); //开启就session
-			} 
+			}
 			
 			include_once("../jssdk2.php");
 			$this->jssdk = new JSSDK("wx6df60d01cc2e0ab3", "c70eda9f0f8efbd6010a264661b1188a");
@@ -92,6 +92,7 @@
 
 		public function index()
 		{
+		    var_dump($this->getuserinfo);die;
 			$this->template->display('index.html');
 		}
 
