@@ -94,6 +94,7 @@
 
 		public function index()
 		{
+		    $this->getuserinfo();
 			$this->template->display('index.html');
 		}
 
