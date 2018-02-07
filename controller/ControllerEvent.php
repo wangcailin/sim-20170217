@@ -77,7 +77,6 @@
 		public function getuserinfo(){
 			
 			$token=$this->getAccessToken();
-            var_dump($token);die;
 
             ob_start();
 			$url="https://api.weixin.qq.com/cgi-bin/user/info?access_token={$token}&openid=".$this->openid;
@@ -87,6 +86,7 @@
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 			$result = curl_exec($ch);
 			$out1 = ob_get_contents();
+			var_dump($out1);die;
 			ob_end_clean();
 			$getarr=json_decode($out1,true);
 			return $getarr;
