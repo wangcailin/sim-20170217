@@ -31,7 +31,6 @@
 			$this->jssdk = new JSSDK("wx6df60d01cc2e0ab3", "c70eda9f0f8efbd6010a264661b1188a");
 
 			if($_GET['siemens_openid']){
-			
 				setcookie('siemens_openid',$_GET['siemens_openid'],$this->config->time+86400*12,$this->config->cookiePath,$this->config->domain,$this->config->cookieSecure);
 				header("Location:".str_replace('&siemens_openid='.$_GET['siemens_openid'],'',str_replace('?siemens_openid='.$_GET['siemens_openid'],'',$this->curPageURL())));
 				die();
@@ -95,6 +94,11 @@
 		{
 			$this->template->display('index.html');
 		}
+
+		public function picture()
+        {
+            $this->template->display('picture.html');
+        }
 
 		public function getAccessToken() {
   			if(time()-filemtime("/www/web/weixin_siemens/external/token1.txt")>1200||file_get_contents("/www/web/weixin_siemens/external/token1.txt")==''){

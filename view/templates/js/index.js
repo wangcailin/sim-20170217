@@ -203,10 +203,10 @@ $(function(){
 			loop: true
 		})
 		$('.footer-click a').on('touchstart',function(){
-			// $.post('',{},function(date){
-			// 	// 传入选择的文字
-			// })
-			$(this).attr('href','picture.html' + '#id=' + randomArr[mySwiper.activeIndex-1].hier + '/' + randomArr[mySwiper.activeIndex-1].level)
+			$.post('',{},function(date){
+				// 传入选择的文字
+			})
+			$(this).attr('href','/' + '#id=' + randomArr[mySwiper.activeIndex-1].hier + '/' + randomArr[mySwiper.activeIndex-1].level)
 		})
 		$('.arrowBottom').click(function(){
 			mySwiper.slideNext();
