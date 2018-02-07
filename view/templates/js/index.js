@@ -1,6 +1,6 @@
 $(function(){
 	// 添加滑动部分内容
-	var imgUrl = 'images/';
+	var imgUrl = '/external/sim-20180217/view/templates/images/';
 	var textObj = [
 		{
 			text:'好好读书',
