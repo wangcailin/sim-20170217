@@ -65,6 +65,8 @@
                 $_SESSION['user_id'] = $this->checkUser();
             }
 
+            var_dump($_SESSION['user_id']);die;
+
 			$signPackage = $this->jssdk->getSignPackage($_GET["requrl"]);
 			$this->template->assign('signPackage',$signPackage);
 			$this->template->assign('blueopenid',$this->openid);
@@ -126,7 +128,6 @@
                 );
                 $this->model->insert($data, 'sim_user');
                 $res = $this->model->select('`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
-                var_dump($res);die;
                 return $res['id'];
             }
         }
