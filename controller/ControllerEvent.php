@@ -114,10 +114,23 @@
         public function text()
         {
             $text = $_POST['text'];
-            $data =array(
+            $data = array(
                 'user_id'       => $_SESSION['user_id'],
                 'text'          => $text,
                 'create_time'   => time()
+            );
+            $this->model->insert($data, 'sim_active');
+        }
+
+        public function share()
+        {
+            $status = $_POST['status'];
+            $page = $_POST['page'];
+            $data = array(
+                'user_id'       => $_SESSION['user_id'],
+                'page'          => $page,
+                'create_time'   => time(),
+                'status'        => $status
             );
             $this->model->insert($data, 'sim_active');
         }

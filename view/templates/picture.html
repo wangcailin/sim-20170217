@@ -147,10 +147,10 @@
                 link: 'http://www.wechat.siemens.com.cn/external/sim-20180217/?m=event&a=index&source='+blueopenid,
                 imgUrl: 'http://www.wechat.siemens.com.cn/external/sim-20180217/view/templates/images/share.jpg',
                 success: function() {
-                    sendShare(1);
+                    sendShare(1,2);
                 },
                 cancel: function() {
-                    sendShare(0);
+                    sendShare(0,2);
                 }
             });
 
@@ -162,16 +162,16 @@
                 type: '',
                 dataUrl: '',
                 success: function() {
-                    sendShare(1);
+                    sendShare(1,2);
                 },
                 cancel: function() {
-                    sendShare(0);
+                    sendShare(0,2);
                 }
             });
         });
 
-        function sendShare(status) {
-            $.post('http://www.wechat.siemens.com.cn/external/sim-20180217/?m=Event&a=text',{status:status},function(date){})
+        function sendShare(status,page) {
+            $.post('http://www.wechat.siemens.com.cn/external/sim-20180217/?m=Event&a=share',{status:status,page:page},function(date){})
         }
 	</script>
 </body>
