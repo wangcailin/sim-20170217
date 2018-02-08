@@ -112,7 +112,7 @@
 
         public function checkUser()
         {
-            $res = $this->model->select('`openid`', 'sim_user', 'opendid = '.$this->openid);
+            $res = $this->model->select('`openid`', 'sim_user', 'openid = '.$this->openid);
             var_dump($res);die;
         }
 

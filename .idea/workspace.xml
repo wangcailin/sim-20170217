@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d69106-dbd6-4824-bade-9142f805eba6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/controller/ControllerEvent.php" afterPath="$PROJECT_DIR$/controller/ControllerEvent.php" />
-      <change beforePath="$PROJECT_DIR$/model/ModelEvent.php" afterPath="$PROJECT_DIR$/model/ModelEvent.php" />
-      <change beforePath="$PROJECT_DIR$/view/templates/index.html" afterPath="$PROJECT_DIR$/view/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/view/templates/picture.html" afterPath="$PROJECT_DIR$/view/templates/picture.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,8 +70,8 @@
       <file leaf-file-name="ControllerEvent.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/ControllerEvent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state relative-caret-position="387">
+              <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -243,12 +239,12 @@
       <workItem from="1517988065782" duration="3991000" />
       <workItem from="1517996316681" duration="2722000" />
       <workItem from="1518053850102" duration="463000" />
-      <workItem from="1518061536811" duration="1501000" />
+      <workItem from="1518061536811" duration="1620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8677000" />
+    <option name="totallyTimeSpent" value="8796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -698,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/ControllerEvent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state relative-caret-position="387">
+          <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
           <folding />
         </state>
       </provider>
