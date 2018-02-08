@@ -57,14 +57,12 @@
 				$this->sourceOpenid = $this->openid;
 			}
 
-			if (empty($_SESSION['wechat_user'])){
+			if (!$_SESSION['wechat_user']){
                 $_SESSION['wechat_user'] = $this->getuserinfo();
             }
             if (!$_SESSION['user_id']){
                 $_SESSION['user_id'] = $this->checkUser();
             }
-
-            var_dump($_SESSION['user_id']);die;
 
 			$signPackage = $this->jssdk->getSignPackage($_GET["requrl"]);
 			$this->template->assign('signPackage',$signPackage);
@@ -115,6 +113,7 @@
         public function checkUser()
         {
             $res = $this->model->select('`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
+            var_dump($res);die;
             if ($res){
                 return $res['id'];
             }else{
