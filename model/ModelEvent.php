@@ -321,7 +321,6 @@
 
         $sql = 'SELECT ' . $data . ' FROM `' . $table . '`' . $where . $group . $order . $limit;
         $result = $this->db->loadToArray($sql);
-		//var_dump($sql);die();
         return $result;
     }
 
@@ -345,15 +344,6 @@
         if ($where) {
             $sql.=" where " . $where;
         }
-        /*if (is_array($order)) {
-            foreach ($order as $key => $value) {
-                $order1 .= $tna . $value . " desc,";
-            }
-            $order = substr($order1, 0, -1);
-        } else {
-            $order = $tna . $order . " desc";
-        }
-        $sql .= " order by " . $order;*/
 
         if(!empty($order)) {
             $sql .= " order by " . $order;

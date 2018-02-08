@@ -10,6 +10,10 @@
 	 */
 	class ControllerEvent extends Base
 	{
+        protected $model = null;
+        protected $jssdk = null;
+        protected $openid = null;
+        protected $sourceOpenid = null;
 		/**
 		 * 构造函数
 		 *
@@ -52,6 +56,14 @@
 			if(!$this->sourceOpenid){
 				$this->sourceOpenid = $this->openid;
 			}
+
+			if (empty($_SESSION['wechat_user'])){
+                $_SESSION['wechat_user'] = $this->getuserinfo();
+            }
+            if (empty($_SESSION['user_id'])){
+                $_SESSION['user_id'] = $this->checkUser();
+            }
+
 			$signPackage = $this->jssdk->getSignPackage($_GET["requrl"]);
 			$this->template->assign('signPackage',$signPackage);
 			$this->template->assign('blueopenid',$this->openid);
@@ -74,9 +86,7 @@
 		 * @access public
 		 */
 		public function getuserinfo(){
-			
 			$token=$this->getAccessToken();
-
             ob_start();
 			$url="https://api.weixin.qq.com/cgi-bin/user/info?access_token={$token}&openid=".$this->openid;
 			$ch = curl_init();
@@ -98,6 +108,12 @@
 		public function picture()
         {
             $this->template->display('picture.html');
+        }
+
+        public function checkUser()
+        {
+            $res = $this->model->select('`openid`', 'sim_user', 'opendid = '.$this->openid);
+            var_dump($res);die;
         }
 
 		public function getAccessToken() {
