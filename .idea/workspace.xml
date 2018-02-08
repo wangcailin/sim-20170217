@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d69106-dbd6-4824-bade-9142f805eba6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/controller/ControllerEvent.php" afterPath="$PROJECT_DIR$/controller/ControllerEvent.php" />
+      <change beforePath="$PROJECT_DIR$/view/templates/css/index.css" afterPath="$PROJECT_DIR$/view/templates/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/view/templates/index.html" afterPath="$PROJECT_DIR$/view/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/view/templates/js/index.js" afterPath="$PROJECT_DIR$/view/templates/js/index.js" />
       <change beforePath="$PROJECT_DIR$/view/templates/picture.html" afterPath="$PROJECT_DIR$/view/templates/picture.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +19,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="94" column="33" lean-forward="false" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+            <state relative-caret-position="594">
+              <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
               <folding>
+                <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#audio#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/templates/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="187" column="8" lean-forward="false" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="8" />
+            <state relative-caret-position="434">
+              <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,30 +43,21 @@
       <file leaf-file-name="picture.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/templates/picture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="163" column="9" lean-forward="true" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
+            <state relative-caret-position="594">
+              <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
               <folding>
+                <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/templates/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="114" column="63" lean-forward="false" selection-start-line="114" selection-start-column="63" selection-end-line="114" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerEvent.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ControllerEvent.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/ControllerEvent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="134" column="52" lean-forward="false" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="52" />
+            <state relative-caret-position="551">
+              <caret line="66" column="69" lean-forward="false" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -92,14 +87,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/view/templates/css/index.css" />
         <option value="$PROJECT_DIR$/config.inc.php" />
         <option value="$PROJECT_DIR$/model/ModelEvent.php" />
-        <option value="$PROJECT_DIR$/view/templates/js/index.js" />
         <option value="$PROJECT_DIR$/view/templates/share1.html" />
+        <option value="$PROJECT_DIR$/view/templates/css/index.css" />
+        <option value="$PROJECT_DIR$/controller/ControllerEvent.php" />
         <option value="$PROJECT_DIR$/view/templates/index.html" />
         <option value="$PROJECT_DIR$/view/templates/picture.html" />
-        <option value="$PROJECT_DIR$/controller/ControllerEvent.php" />
+        <option value="$PROJECT_DIR$/view/templates/js/index.js" />
       </list>
     </option>
   </component>
@@ -163,7 +158,7 @@
               <item name="sim-20180217-back" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -178,6 +173,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/view/templates" />
+      <recent name="$PROJECT_DIR$/view/templates/css" />
       <recent name="$PROJECT_DIR$/view/templates/images" />
     </key>
   </component>
@@ -209,12 +206,12 @@
       <workItem from="1517988065782" duration="3991000" />
       <workItem from="1517996316681" duration="2722000" />
       <workItem from="1518053850102" duration="463000" />
-      <workItem from="1518061536811" duration="5558000" />
+      <workItem from="1518061536811" duration="6610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12734000" />
+    <option name="totallyTimeSpent" value="13786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -256,6 +253,8 @@
         <state relative-caret-position="817">
           <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding>
+            <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -274,6 +273,7 @@
         <state relative-caret-position="171">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
+            <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -354,6 +354,8 @@
         <state relative-caret-position="817">
           <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding>
+            <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -372,6 +374,7 @@
         <state relative-caret-position="171">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
+            <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -452,6 +455,8 @@
         <state relative-caret-position="76">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
+            <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -462,6 +467,7 @@
         <state relative-caret-position="171">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
+            <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -618,14 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/templates/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="114" column="63" lean-forward="false" selection-start-line="114" selection-start-column="63" selection-end-line="114" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -642,11 +640,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/templates/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="288" column="6" lean-forward="true" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="66" column="69" lean-forward="false" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="94" column="33" lean-forward="false" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+        <state relative-caret-position="594">
+          <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
           <folding>
+            <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -654,9 +670,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/templates/picture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="163" column="9" lean-forward="true" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
+        <state relative-caret-position="594">
+          <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
           <folding>
+            <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -664,16 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/templates/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="187" column="8" lean-forward="false" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="134" column="52" lean-forward="false" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="52" />
+        <state relative-caret-position="434">
+          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
           <folding />
         </state>
       </provider>

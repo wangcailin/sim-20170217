@@ -7,6 +7,10 @@
 	<link rel="stylesheet" href="{{$cssSite}}index.css?v=1.0">
 </head>
 <body>
+	<audio style="width:0;height:0;opacity: 0;" src="/external/sim-20180217/view/templates/music/allMusic.mp3" autoplay="auto" loop="loop" id="audio"></audio>
+	<div class="musiclogo musicact" monitor="音频点击,点击">
+		<img src="/external/sim-20180217/view/templates/images/musiclogo.png" />
+	</div>
 	<!-- loading部分 -->
 	<div class="loading">
 		<div class="loadingBox">
@@ -125,7 +129,6 @@
             nonceStr: '{{$signPackage["nonceStr"]}}',
             signature: '{{$signPackage["signature"]}}',
             jsApiList: [
-                // 所有要调用的 API 都要加到这个列表中
                 'closeWindow','onMenuShareTimeline','onMenuShareAppMessage','hideOptionMenu','showOptionMenu'
             ]
         });
@@ -157,6 +160,9 @@
                     sendShare(0,2);
                 }
             });
+
+            var allAudio = document.getElementById('audio');
+            allAudio.play();
         });
 
         function sendShare(status,page) {

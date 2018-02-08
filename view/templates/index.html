@@ -8,6 +8,11 @@
 	<link rel="stylesheet" href="{{$cssSite}}index.css">
 </head>
 <body>
+	<audio style="width:0;height:0;opacity: 0;" src="/external/sim-20180217/view/templates/music/allMusic.mp3" autoplay="auto" loop="loop" id="audio"></audio>
+	<audio style="width:0;height:0;opacity: 0;" src="/external/sim-20180217/view/templates/music/onlineMusic.mp3" id="audioLone"></audio>
+	<div class="musiclogo musicact" monitor="音频点击,点击">
+		<img src="/external/sim-20180217/view/templates/images/musiclogo.png" />
+	</div>
 	<!-- loading部分 -->
 	<div class="loading">
 		<div class="loadingBox">
@@ -110,6 +115,9 @@
                     sendShare(0,1);
                 }
             });
+
+            var allAudio = document.getElementById('audio');
+            allAudio.play();
         });
 
         function sendShare(status, page) {
