@@ -111,6 +111,17 @@
             $this->template->display('picture.html');
         }
 
+        public function text()
+        {
+            $text = $_POST['text'];
+            $data =array(
+                'user_id'       => $_SESSION['user_id'],
+                'text'          => $text,
+                'create_time'   => time()
+            );
+            $this->model->insert($data, 'sim_active');
+        }
+
         public function checkUser()
         {
             $res = $this->model->select('`id`,`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
