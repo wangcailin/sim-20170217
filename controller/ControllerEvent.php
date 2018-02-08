@@ -63,8 +63,7 @@
             if (!$_SESSION['user']){
                 $_SESSION['user'] = $this->checkUser();
             }
-            var_dump($_SESSION['user']);die;
-
+            
 			$signPackage = $this->jssdk->getSignPackage($_GET["requrl"]);
 			$this->template->assign('signPackage',$signPackage);
             $this->template->assign('blueopenid',$this->openid);
