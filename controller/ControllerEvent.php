@@ -66,7 +66,9 @@
 
 			$signPackage = $this->jssdk->getSignPackage($_GET["requrl"]);
 			$this->template->assign('signPackage',$signPackage);
-			$this->template->assign('blueopenid',$this->openid);
+            $this->template->assign('blueopenid',$this->openid);
+            $this->template->assign('wechat_user',$_SESSION['wechat_user']);
+            $this->template->assign('user_id',$_SESSION['user_id']);
 		}
 		
 		/**
