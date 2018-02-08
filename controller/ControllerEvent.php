@@ -60,8 +60,7 @@
 			if (empty($_SESSION['wechat_user'])){
                 $_SESSION['wechat_user'] = $this->getuserinfo();
             }
-            $this->checkUser();
-            if (empty($_SESSION['user_id'])){
+            if (!$_SESSION['user_id']){
                 $_SESSION['user_id'] = $this->checkUser();
             }
 
