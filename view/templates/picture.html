@@ -39,7 +39,8 @@
 			<!-- 头像部分 -->
 			<div class="peoplePict">
 				<div class="portrait">
-					<img class="thisImg" src="{{$wechat_user['headimgurl']}}" alt="">
+					<input type="text" value="{{$wechat_user['headimgurl']}}" id="imgInput">
+					<img class="thisImg" src="" alt="">
 					<p class="thisName">{{$wechat_user['nickname']}}</p>
 				</div>
 				<!-- 旺 -->
@@ -136,7 +137,7 @@
             wx.showOptionMenu();
             wx.onMenuShareTimeline({
                 title: '测一测旺年你会旺什么？',
-                link: 'http://www.wechat.siemens.com.cn/external/sim-20180217/?m=event&a=index&source='+blueopenid,
+                link: 'http://www.wechat.siemens.com.cn/external/sim-20180217/index.php?m=event&a=index',
                 imgUrl: 'http://www.wechat.siemens.com.cn/external/sim-20180217/view/templates/images/share.jpg',
                 success: function() {
                     sendShare(1,2);
@@ -149,7 +150,7 @@
             wx.onMenuShareAppMessage({
                 title: '测一测旺年你会旺什么？',
                 desc : '',
-                link: 'http://www.wechat.siemens.com.cn/external/sim-20180217/index.php?m=event&a=index&source='+blueopenid,
+                link: 'http://www.wechat.siemens.com.cn/external/sim-20180217/index.php?m=event&a=index',
                 imgUrl: 'http://www.wechat.siemens.com.cn/external/sim-20180217/view/templates/images/share.jpg',
                 type: '',
                 dataUrl: '',

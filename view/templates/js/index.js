@@ -258,6 +258,9 @@ $(function(){
 				$('.pictureTxt .pictureImg').attr('src',imgUrl + textObj[i].img +'.png');
 			}
 		}
+
+        $('.canvasBox .thisImg').attr('src',$('#imgInput').val())
+
 		// 生成图片页面
 		var canvasSet = setTimeout(function(){
 			var Img = document.getElementById('generate');
