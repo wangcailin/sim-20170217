@@ -265,7 +265,7 @@ $(function(){
 		    canvas.height = $('body').height();
 		    html2canvas(document.querySelector(".canvasBox"), {canvas: canvas}).then(function(canvas) {
 		        Img.src = canvas.toDataURL("image/jpg");
-		        $('.canvasBox').remove();
+		        //$('.canvasBox').remove();
 		    });
 		    clearTimeout(canvasSet)
 		},300)
