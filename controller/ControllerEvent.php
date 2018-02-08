@@ -64,6 +64,8 @@
                 $_SESSION['user_id'] = $this->checkUser();
             }
 
+            var_dump($_SESSION['user_id']);die;
+
 			$signPackage = $this->jssdk->getSignPackage($_GET["requrl"]);
 			$this->template->assign('signPackage',$signPackage);
 			$this->template->assign('blueopenid',$this->openid);
@@ -113,9 +115,8 @@
         public function checkUser()
         {
             $res = $this->model->select('`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
-            var_dump($res);die;
             if ($res){
-                return $res['id'];
+                return $res[0]['id'];
             }else{
                 $data = array(
                     'openid'        => $this->openid,
@@ -126,7 +127,7 @@
                 );
                 $this->model->insert($data, 'sim_user');
                 $res = $this->model->select('`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
-                return $res['id'];
+                return $res[0]['id'];
             }
         }
 
