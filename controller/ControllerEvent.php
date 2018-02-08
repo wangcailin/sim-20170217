@@ -123,7 +123,9 @@
                     'subscribe'     => $_SESSION['wechat_user']['subscribe'],
                     'create_time'   => time()
                 );
-                return $this->model->insert($data, 'sim_user');
+                $this->model->insert($data, 'sim_user');
+                $res = $this->model->select('`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
+                return $res['id'];
             }
         }
 
