@@ -38,8 +38,8 @@
       <file leaf-file-name="picture.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/templates/picture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="595">
+              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -60,7 +60,7 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/templates/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2166">
+            <state relative-caret-position="765">
               <caret line="114" column="63" lean-forward="false" selection-start-line="114" selection-start-column="63" selection-end-line="114" selection-end-column="63" />
               <folding />
             </state>
@@ -70,59 +70,9 @@
       <file leaf-file-name="ControllerEvent.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/ControllerEvent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+            <state relative-caret-position="539">
+              <caret line="68" column="47" lean-forward="false" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="47" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="share1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/templates/share1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelEvent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/ModelEvent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2249">
-              <caret line="402" column="36" lean-forward="false" selection-start-line="402" selection-start-column="32" selection-end-line="402" selection-end-column="36" />
-              <folding>
-                <marker date="1518070546853" expanded="true" signature="613:675" ph="select * fro... phone_nub" />
-                <marker date="1518070546853" expanded="true" signature="772:794" ph="select * fro... user_win" />
-                <marker date="1518070546853" expanded="true" signature="974:1018" ph="select * fro... to_sign_up" />
-                <marker date="1518070546853" expanded="true" signature="1213:1353" ph="select *,fro... " />
-                <marker date="1518070546853" expanded="true" signature="1550:1672" ph="select *,fro... " />
-                <marker date="1518070546853" expanded="true" signature="1861:1924" ph="select * fro... phone_nub" />
-                <marker date="1518070546853" expanded="true" signature="2015:2091" ph="select * fro... phone_nub" />
-                <marker date="1518070546853" expanded="true" signature="2188:2247" ph="select count... user_statistics" />
-                <marker date="1518070546853" expanded="true" signature="2338:2367" ph="select count... user_win" />
-                <marker date="1518070546853" expanded="true" signature="2463:2511" ph="select * fro... user_win" />
-                <marker date="1518070546853" expanded="true" signature="2626:2702" ph="select * fro... user_win" />
-                <marker date="1518070546853" expanded="true" signature="2813:2867" ph="select * fro... user_statistics" />
-                <marker date="1518070546853" expanded="true" signature="2973:3005" ph="select count... winner_user" />
-                <marker date="1518070546853" expanded="true" signature="3107:3165" ph="select * fro... winner_user" />
-                <marker date="1518070546853" expanded="true" signature="3252:3313" ph="select * fro... user_nub" />
-                <marker date="1518070546853" expanded="true" signature="3408:3438" ph="select count... ${{$from}}" />
-                <marker date="1518070546853" expanded="true" signature="3544:3624" ph="update cnc_user_sel... " />
-                <marker date="1518070546853" expanded="true" signature="3752:3818" ph="update cnc_user_sel... " />
-                <marker date="1518070546853" expanded="true" signature="3940:3996" ph="update cnc_user_sel... " />
-                <marker date="1518070546853" expanded="true" signature="4096:4152" ph="update cnc_user_sel... " />
-                <marker date="1518070546853" expanded="true" signature="4252:4308" ph="update cnc_user_sel... " />
-                <marker date="1518070546853" expanded="true" signature="4408:4464" ph="update cnc_user_sel... " />
-                <marker date="1518070546853" expanded="true" signature="4558:4601" ph="update user_win... " />
-                <marker date="1518070546853" expanded="true" signature="4698:4748" ph="update to_sign_up... " />
-                <marker date="1518070546853" expanded="true" signature="4864:4975" ph="update phone_nub... " />
-                <marker date="1518070546853" expanded="true" signature="5066:5112" ph="update winner_user... " />
-                <marker date="1518070546853" expanded="true" signature="5759:5797" ph="delete from winner_user... " />
-                <marker date="1518070546853" expanded="true" signature="7545:7592" ph="select count... ${$table}" />
-                <marker date="1518070546853" expanded="true" signature="9588:9600" ph="INSERT INTO ${$table}... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -260,12 +210,12 @@
       <workItem from="1517988065782" duration="3991000" />
       <workItem from="1517996316681" duration="2722000" />
       <workItem from="1518053850102" duration="463000" />
-      <workItem from="1518061536811" duration="3110000" />
+      <workItem from="1518061536811" duration="3369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10286000" />
+    <option name="totallyTimeSpent" value="10545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -594,14 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/templates/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2166">
-          <caret line="114" column="63" lean-forward="false" selection-start-line="114" selection-start-column="63" selection-end-line="114" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -655,10 +597,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="51" column="72" lean-forward="false" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/templates/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="114" column="63" lean-forward="false" selection-start-line="114" selection-start-column="63" selection-end-line="114" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/ModelEvent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2249">
-          <caret line="402" column="36" lean-forward="false" selection-start-line="402" selection-start-column="32" selection-end-line="402" selection-end-column="36" />
+        <state relative-caret-position="1215">
+          <caret line="354" column="5" lean-forward="true" selection-start-line="354" selection-start-column="5" selection-end-line="354" selection-end-column="5" />
           <folding>
             <marker date="1518070546853" expanded="true" signature="613:675" ph="select * fro... phone_nub" />
             <marker date="1518070546853" expanded="true" signature="772:794" ph="select * fro... user_win" />
@@ -695,34 +655,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/templates/share1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/ControllerEvent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        <state relative-caret-position="539">
+          <caret line="68" column="47" lean-forward="false" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="47" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="51" column="72" lean-forward="false" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/templates/picture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        <state relative-caret-position="595">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
