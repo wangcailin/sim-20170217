@@ -36,7 +36,7 @@
 			<div class="peoplePict">
 				<div class="portrait">
 					<img class="thisImg" src="{{$wechat_user['openid']}}" alt="">
-					<p class="thisName">{{$blueopenid}}</p>
+					<p class="thisName">{{$wechat_user['nickname']}}</p>
 				</div>
 				<!-- 旺 -->
 				<div class="wang">
@@ -76,8 +76,8 @@
 			<!-- 头像部分 -->
 			<div class="peoplePict">
 				<div class="portrait">
-					<img class="thisImg" src="" alt="">
-					<p class="thisName">丫头</p>
+					<img class="thisImg" src="{{$wechat_user['openid']}}" alt="">
+					<p class="thisName">{{$wechat_user['nickname']}}</p>
 				</div>
 				<!-- 旺 -->
 				<div class="wang">
