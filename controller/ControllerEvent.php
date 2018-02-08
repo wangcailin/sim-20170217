@@ -61,14 +61,14 @@
                 $_SESSION['wechat_user'] = $this->getuserinfo();
             }
             if (!$_SESSION['user_id']){
-                $_SESSION['user_id'] = $this->checkUser();
+                $_SESSION['user'] = $this->checkUser();
             }
 
 			$signPackage = $this->jssdk->getSignPackage($_GET["requrl"]);
 			$this->template->assign('signPackage',$signPackage);
             $this->template->assign('blueopenid',$this->openid);
             $this->template->assign('wechat_user',$_SESSION['wechat_user']);
-            $this->template->assign('headimgurl',$_SESSION['headimgurl']);
+            $this->template->assign('user',$_SESSION['user']);
             $this->template->assign('user_id',$_SESSION['user_id']);
 		}
 		
@@ -116,7 +116,7 @@
         {
             $text = $_POST['text'];
             $data = array(
-                'user_id'       => $_SESSION['user_id'],
+                'user_id'       => $_SESSION['user']['id'],
                 'text'          => $text,
                 'create_time'   => time()
             );
@@ -128,7 +128,7 @@
             $status = $_POST['status'];
             $page = $_POST['page'];
             $data = array(
-                'user_id'       => $_SESSION['user_id'],
+                'user_id'       => $_SESSION['user']['id'],
                 'page'          => $page,
                 'create_time'   => time(),
                 'status'        => $status
@@ -140,8 +140,7 @@
         {
             $res = $this->model->select('`id`,`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
             if ($res){
-                $_SESSION['headimgurl'] = $res[0]['headimgurl'];
-                return $res[0]['id'];
+                return $res[0];
             }else{
                 $headimgurl = $this->put_file_from_url_content($_SESSION['wechat_user']['headimgurl'],time().rand(100,999).".jpg","/www/web/weixin_siemens/external/sim-20180217/view/templates/headimgurl/");
                 $data = array(
@@ -153,8 +152,7 @@
                 );
                 $this->model->insert($data, 'sim_user');
                 $res = $this->model->select('`id`,`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
-                $_SESSION['headimgurl'] = $res[0]['headimgurl'];
-                return $res[0]['id'];
+                return $res[0];
             }
         }
 
