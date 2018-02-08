@@ -139,7 +139,7 @@
 
         public function checkUser()
         {
-            $res = $this->model->select('`id`,`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
+            $res = $this->model->select('`id`,`openid`,`headimgurl`', 'sim_user', 'openid = "'.$this->openid.'"');
             if ($res){
                 return $res[0];
             }else{
@@ -152,7 +152,7 @@
                     'create_time'   => time()
                 );
                 $this->model->insert($data, 'sim_user');
-                $res = $this->model->select('`id`,`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
+                $res = $this->model->select('`id`,`openid`,`headimgurl`', 'sim_user', 'openid = "'.$this->openid.'"');
                 return $res[0];
             }
         }
