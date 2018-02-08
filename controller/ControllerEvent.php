@@ -132,7 +132,7 @@
                 'create_time'   => time(),
                 'status'        => $status
             );
-            $this->model->insert($data, 'sim_active');
+            $this->model->insert($data, 'sim_share');
         }
 
         public function checkUser()
