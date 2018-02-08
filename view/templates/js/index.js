@@ -229,10 +229,10 @@ $(function(){
 			loop: true
 		})
 		$('.footer-click a').on('touchstart',function(){
-			$.post('http://www.wechat.siemens.com.cn/external/sim-20180217/?m=Event&a=text',{text:randomArr[mySwiper.activeIndex-1].text},function(date){
+			$.post('http://www.wechat.siemens.com.cn/external/sim-20180217?m=Event&a=text',{text:randomArr[mySwiper.activeIndex-1].text},function(date){
 				// 传入选择的文字
 			})
-			$(this).attr('href','/external/sim-20180217/?m=Event&a=picture' + '#id=' + randomArr[mySwiper.activeIndex-1].hier + '/' + randomArr[mySwiper.activeIndex-1].level)
+			$(this).attr('href','/external/sim-20180217/index.php?m=Event&a=picture' + '#id=' + randomArr[mySwiper.activeIndex-1].hier + '/' + randomArr[mySwiper.activeIndex-1].level)
 		})
 		$('.arrowBottom').click(function(){
 			mySwiper.slideNext();
