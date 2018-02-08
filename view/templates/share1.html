@@ -46,34 +46,36 @@ var blueopenid='{{$blueopenid}}';
 	wx.ready(function () {
 		wx.showOptionMenu();
 		 wx.onMenuShareTimeline({
-			                title: '快来领取限量版西门子玩偶啦！', 
-			                link: 'http://www.wechat.siemens.com.cn/external/sim_katong/index.php?m=event&a=index&source='+blueopenid,
-			                imgUrl: 'http://www.wechat.siemens.com.cn/external/sim_katong/view/templates/images/shili_3.jpg',
-			                success: function() {
-								 blue_tracker_monitor('sharelog',{       //监测分享的方法
-									  'sharetype':'wechatAppMessage',
-									  'shareurl':'http://www.wechat.siemens.com.cn/external/sim_katong/index.php?m=event&a=index&source='+blueopenid     
-								 }); 							
-			                },
-			                cancel: function() {
-			                }
-			            });
-			
-			            wx.onMenuShareAppMessage({
-			                title: '快来领取限量版西门子玩偶啦！', 
-			                desc : '今天是西门子创始人维尔纳•冯•西门子200岁大寿！我们特别制作了一系列限量版西门子老爷爷玩偶。想要得到玩偶么？那就来领取你的神秘任务吧！',
-			                link: 'http://www.wechat.siemens.com.cn/external/sim_katong/index.php?m=event&a=index&source='+blueopenid,
-			                imgUrl: 'http://www.wechat.siemens.com.cn/external/sim_katong/view/templates/images/shili_3.jpg',
-			                type: '', 
-			                dataUrl: '', 
-			                success: function() {	
-								 blue_tracker_monitor('sharelog',{       //监测分享的方法
-									  'sharetype':'wechatAppMessage',
-									  'shareurl':'http://www.wechat.siemens.com.cn/external/sim_katong/index.php?m=event&a=index&source='+blueopenid     
-								 });  				
-			                },
-			                cancel: function() {
-			                }
-			            });
+			title: '测一测旺年你会旺什么？',
+			link: 'http://www.wechat.siemens.com.cn/external/sim-20180217/?m=event&a=index&source='+blueopenid,
+			imgUrl: 'http://www.wechat.siemens.com.cn/external/sim_katong/view/templates/images/shili_3.jpg',
+			success: function() {
+                sendShare(1);
+			},
+			cancel: function() {
+                sendShare(0);
+			}
+		});
+
+		wx.onMenuShareAppMessage({
+			title: '测一测旺年你会旺什么？',
+			desc : '',
+			link: 'http://www.wechat.siemens.com.cn/external/sim-20180217/index.php?m=event&a=index&source='+blueopenid,
+			imgUrl: 'http://www.wechat.siemens.com.cn/external/sim_katong/view/templates/images/shili_3.jpg',
+			type: '',
+			dataUrl: '',
+            success: function() {
+                sendShare(1);
+            },
+            cancel: function() {
+                sendShare(0);
+            }
+		});
 	});
+	
+	function sendShare(status) {
+        $.post('http://www.wechat.siemens.com.cn/external/sim-20180217/?m=Event&a=text',{status:status},function(date){
+            // 传入选择的文字
+        })
+    }
 </script>
