@@ -113,7 +113,18 @@
         public function checkUser()
         {
             $res = $this->model->select('`openid`', 'sim_user', 'openid = "'.$this->openid.'"');
-            var_dump($res);die;
+            if ($res){
+                return $res['id'];
+            }else{
+                $data = [
+                    'openid'        => $this->openid,
+                    'nickname'      => $_SESSION['wechat_user']['nickname'],
+                    'headimgurl'    => $_SESSION['wechat_user']['headimgurl'],
+                    'subscribe'     => $_SESSION['wechat_user']['subscribe'],
+                    'create_time'   => time()
+                ];
+                return $this->model->insert($data, 'sim_user');
+            }
         }
 
 		public function getAccessToken() {
