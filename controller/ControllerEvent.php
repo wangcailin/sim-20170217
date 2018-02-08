@@ -27,8 +27,8 @@
 			$this->model = new ModelEvent();
 
 			self::initConfig();
-			if(!isset($_SESSION)){ //判断session是否开启
-				session_start(); //开启就session
+			if(!isset($_SESSION)){
+				session_start();
 			}
 			
 			include_once("../jssdk2.php");
@@ -141,10 +141,11 @@
             if ($res){
                 return $res[0]['id'];
             }else{
+                $headimgurl = $this->put_file_from_url_content($_SESSION['wechat_user']['headimgurl'],time().rand(100,999).".jpg","/www/web/weixin_siemens/external/sim-20180217/view/templates/headimgurl/");
                 $data = array(
                     'openid'        => $this->openid,
                     'nickname'      => $_SESSION['wechat_user']['nickname'],
-                    'headimgurl'    => $_SESSION['wechat_user']['headimgurl'],
+                    'headimgurl'    => $headimgurl,
                     'subscribe'     => $_SESSION['wechat_user']['subscribe'],
                     'create_time'   => time()
                 );
@@ -154,7 +155,37 @@
             }
         }
 
-		public function getAccessToken() {
+        private function put_file_from_url_content($url, $saveName, $path) {
+            // 设置运行时间为无限制
+            set_time_limit ( 0 );
+            $url = trim ( $url );
+            $curl = curl_init ();
+            // 设置你需要抓取的URL
+            curl_setopt ( $curl, CURLOPT_URL, $url );
+            // 设置header
+            curl_setopt ( $curl, CURLOPT_HEADER, 0 );
+            // 设置cURL 参数，要求结果保存到字符串中还是输出到屏幕上。
+            curl_setopt ( $curl, CURLOPT_RETURNTRANSFER, 1 );
+            // 运行cURL，请求网页
+            $file = curl_exec ( $curl );
+            // 关闭URL请求
+            curl_close ( $curl );
+            // 将文件写入获得的数据
+            $filename = $path . $saveName;
+            $write = @fopen ( $filename, "w" );
+            if ($write == false) {
+                return false;
+            }
+            if (fwrite ( $write, $file ) == false) {
+                return false;
+            }
+            if (fclose ( $write ) == false) {
+                return false;
+            }
+            return $filename;
+        }
+
+        public function getAccessToken() {
   			if(time()-filemtime("/www/web/weixin_siemens/external/token1.txt")>1200||file_get_contents("/www/web/weixin_siemens/external/token1.txt")==''){
 			ob_start();
 			$url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx6df60d01cc2e0ab3&secret=c70eda9f0f8efbd6010a264661b1188a';
