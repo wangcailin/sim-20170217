@@ -38,8 +38,8 @@
       <file leaf-file-name="picture.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/templates/picture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="78" column="72" lean-forward="false" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -217,12 +217,12 @@
       <workItem from="1517988065782" duration="3991000" />
       <workItem from="1517996316681" duration="2722000" />
       <workItem from="1518053850102" duration="463000" />
-      <workItem from="1518061536811" duration="3941000" />
+      <workItem from="1518061536811" duration="3975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11117000" />
+    <option name="totallyTimeSpent" value="11151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -678,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/templates/picture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="78" column="72" lean-forward="false" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
