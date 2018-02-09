@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d69106-dbd6-4824-bade-9142f805eba6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/view/templates/index.html" afterPath="$PROJECT_DIR$/view/templates/index.html" />
       <change beforePath="$PROJECT_DIR$/view/templates/picture.html" afterPath="$PROJECT_DIR$/view/templates/picture.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +16,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="368">
+              <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#audio#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,8 +40,8 @@
       <file leaf-file-name="picture.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/templates/picture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="399">
+              <caret line="167" column="36" lean-forward="false" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -233,12 +231,12 @@
       <workItem from="1518053850102" duration="463000" />
       <workItem from="1518061536811" duration="11553000" />
       <workItem from="1518140547081" duration="532000" />
-      <workItem from="1518158772304" duration="1262000" />
+      <workItem from="1518158772304" duration="1354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20523000" />
+    <option name="totallyTimeSpent" value="20615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -668,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="368">
+          <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#audio#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -680,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/templates/picture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="399">
+          <caret line="167" column="36" lean-forward="false" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#audio#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
