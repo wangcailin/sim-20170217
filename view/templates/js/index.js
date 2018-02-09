@@ -243,6 +243,9 @@ $(function(){
                 onlineAudio.play();
             }
         )
+        $('.jumpBox').on('touchstart',function(){
+            $(this).hide();
+        })
 	}
 	// 生成图片
 	var pictuFun = function() {

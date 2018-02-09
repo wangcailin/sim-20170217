@@ -70,12 +70,47 @@ canvas {
   margin: 0 auto;
 }
 .musiclogo {
-  width: 34px;
-  height: 34px;
+  width: 44px;
+  height: 44px;
   position: absolute;
   top: 12px;
   right: 12px;
   z-index: 99;
+}
+.jumpBox {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 998;
+}
+.jumpBox .jumptop {
+  width: 220px;
+  height: 60px;
+  position: absolute;
+  top: 135px;
+  left: 50%;
+  -webkit-transform: translateX(-110px);
+  transform: translateX(-110px);
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.6;
+  color: #fff;
+}
+.jumpBox .jumpBottom {
+  width: 274px;
+  height: 360px;
+  position: absolute;
+  left: 244px;
+  bottom: 100px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  line-height: 1.4;
+  background: url(/external/sim-20180217/view/templates/images/jumpbottom.png) no-repeat center center / contain;
 }
 .content {
   width: 100%;
@@ -227,20 +262,20 @@ canvas {
   z-index: 0;
   overflow: hidden;
 }
-.canvasBox .mypicture {
+.mypicture {
   width: 220px;
   height: 152px;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-.canvasBox .mypicture .mypicImg {
+.mypicture .mypicImg {
   width: 209px;
   position: absolute;
   top: 0;
   left: 0;
 }
-.canvasBox .mypicture .mycode {
+.mypicture .mycode {
   width: 96px;
   position: absolute;
   right: 40px;
@@ -262,6 +297,42 @@ canvas {
   -ms-user-select: all;
   user-select: all;
   pointer-events: auto;
+}
+.bottomShare {
+  width: 140px;
+  height: 84px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.bottomShare > img {
+  width: 108px;
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+.saypeople {
+  width: 108px;
+  height: 167px;
+  position: absolute;
+  top: 5px;
+  right: 54px;
+}
+.saypeople > img {
+  width: 36px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+  -webkit-animation: share 1.5s linear infinite;
+  animation: share 1.5s linear infinite;
+}
+.saypeople p {
+  position: absolute;
+  top: 70px;
+  font-size: 24px;
+  color: #fff;
 }
 .musicact {
   -webkit-animation: musicAir 4s linear infinite;
@@ -299,5 +370,31 @@ canvas {
   }
   100% {
     transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes share {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: rotateZ(0);
+  }
+  25% {
+    -webkit-transform: rotateZ(-15deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(15deg);
+  }
+}
+@keyframes share {
+  0%,
+  50%,
+  100% {
+    transform: rotateZ(0);
+  }
+  25% {
+    transform: rotateZ(-15deg);
+  }
+  75% {
+    transform: rotateZ(15deg);
   }
 }
