@@ -24,18 +24,11 @@ $(function(){
             level:1
         },
         {
-            text:'客户爸爸心情好',
-            img:'work_02',
-            target:'事业旺',
-            hier:2,
-            level:2
-        },
-        {
             text:'戒除拖延症',
             img:'work_03',
             target:'事业旺',
             hier:2,
-            level:3
+            level:2
         },
         {
             text:'大吉大利有钱有你',
