@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d69106-dbd6-4824-bade-9142f805eba6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/view/templates/css/index.css" afterPath="$PROJECT_DIR$/view/templates/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/view/templates/images/supper_02.png" afterPath="$PROJECT_DIR$/view/templates/images/supper_02.png" />
-      <change beforePath="$PROJECT_DIR$/view/templates/js/index.js" afterPath="$PROJECT_DIR$/view/templates/js/index.js" />
+      <change beforePath="$PROJECT_DIR$/view/templates/images/indexFooter.png" afterPath="$PROJECT_DIR$/view/templates/images/indexFooter.png" />
+      <change beforePath="$PROJECT_DIR$/view/templates/music/allMusic.mp3" afterPath="$PROJECT_DIR$/view/templates/music/allMusic.mp3" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/templates/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
@@ -52,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/templates/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -177,7 +176,7 @@
               <item name="sim-20180217-back" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="music" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -193,6 +192,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/view/templates/images" />
+      <recent name="$PROJECT_DIR$/view/templates/music" />
       <recent name="$PROJECT_DIR$/view/templates/css" />
       <recent name="$PROJECT_DIR$/view/templates" />
     </key>
@@ -227,18 +227,17 @@
       <workItem from="1518053850102" duration="463000" />
       <workItem from="1518061536811" duration="11553000" />
       <workItem from="1518140547081" duration="532000" />
-      <workItem from="1518158772304" duration="1708000" />
+      <workItem from="1518158772304" duration="2122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20969000" />
+    <option name="totallyTimeSpent" value="21383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -667,18 +666,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/templates/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="183" column="15" lean-forward="true" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/templates/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/templates/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="183" column="15" lean-forward="true" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
           <folding />
         </state>
       </provider>
