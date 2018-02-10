@@ -400,3 +400,28 @@ canvas {
     transform: rotateZ(15deg);
   }
 }
+
+.footer-click img{
+  -webkit-animation:opcit 1s linear infinite;
+  animation:opcit 1s linear infinite;
+}
+@-webkit-keyframes opcit{
+  0%,100%{
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+  50%{
+    opacity: 0.6;
+    -webkit-transform: scale(1.05);
+  }
+}
+@keyframes opcit{
+  0%,100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+  50%{
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+}
